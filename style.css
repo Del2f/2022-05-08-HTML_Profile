@@ -1,0 +1,155 @@
+body{
+    letter-spacing: 0px;
+    font-family: noto sans cjk kr;
+}
+
+.logo > img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.my{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    padding: 30px 80px;
+    border: solid 1px none;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 7px 7px 15px 1px rgb(226, 226, 226);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar li{
+    padding: 20px;
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+.post_box {
+    height : 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 7px 7px 10px rgb(238, 238, 238);
+}
+
+.post_contents {
+    width: 70%;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.profile_box {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.up_time {
+    font-size: 10px;
+    color: gray;
+}
+
+.profile_img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.headline {
+    padding-left: 30px;
+    padding-top: 15px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.contents {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: 0px;
+    color: rgb(85, 85, 85);
+}
+
+.post_img {
+    width : 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.post_img > img {
+    width: 150px;
+    border-radius: 5px;
+}
+
